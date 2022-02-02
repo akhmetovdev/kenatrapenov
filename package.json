@@ -1,20 +1,24 @@
 {
   "name": "kenatrapenov",
   "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "netlify:dev": "netlify dev"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "@netlify/functions": "^0.11.0",
     "preact": "^10.6.5"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.1.7",
+    "@types/node": "^14.18.9",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.2",
     "prettier": "^2.5.1",

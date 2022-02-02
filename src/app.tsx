@@ -1,16 +1,14 @@
 import { h } from 'preact';
-import { Logo } from './logo';
+import { Intro } from './components/intro';
 
+/**
+ *
+ * @constructor
+ */
 export function App() {
   return (
     <>
-      <Logo />
-      <p>Hello Vite + Preact!</p>
-      <p>
-        <a class="link" href="https://preactjs.com/" target="_blank" rel="noopener noreferrer">
-          Learn Preact
-        </a>
-      </p>
+      <Intro />
     </>
   );
 }
