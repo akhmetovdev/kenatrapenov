@@ -13,7 +13,7 @@ export const QUESTIONS: Question[] = [
       4: 'хоккеист',
       5: 'визажист',
     },
-    validAnswerKey: '3',
+    validAnswerKey: '1',
   },
 
   {
